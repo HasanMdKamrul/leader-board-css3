@@ -6,6 +6,9 @@ body {
   margin: 0 auto; */
   background-color: #f3f1ff;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .main-container {
@@ -30,6 +33,46 @@ hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 27px;
 }
+/* ** NavBar */
+
+header {
+  width: 100%;
+  height: 94px;
+  background: #562eff;
+}
+
+.navelements {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-left-element {
+  display: flex;
+  align-items: center;
+}
+.nav-left-element img {
+  width: 40.42px;
+  height: 51px;
+}
+
+.nav-right-element {
+  display: flex;
+  align-items: center;
+}
+.nav-right-element img {
+  width: 51px;
+  height: 51px;
+}
+.nav-right-element a {
+  text-decoration: none;
+  margin-right: 36px;
+  color: #ffffff;
+}
+
+.nav-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
 /* * Top player css */
 .section-title {
   font-size: 24px;
